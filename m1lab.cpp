@@ -15,13 +15,13 @@ int main () {
     double pricePerApple = 0.25;
 
     cout << "Welcome to " << name;
-    cout << "'s apple farm" << endl;
+    cout << "'s apple orchard" << endl;
 
-    cout << "We have " << apples << " apples for sale" << endl;
+    cout << "We have " << apples << " apples in stock" << endl;
 
-    cout << "Price is $" << pricePerApple << " each." <<endl;
+    cout << "Apples are currently $" << pricePerApple << " each." <<endl;
     
     // calculating total price
     double totalPrice = (double) apples * pricePerApple;
-    cout << "Total price is: $" <<totalPrice <<endl;
+    cout << "If you want them all, that will be $" <<totalPrice <<endl;
 }
