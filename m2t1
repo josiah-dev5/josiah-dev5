@@ -1,0 +1,49 @@
+// CSC 134
+// M2T1 - Product Sales
+// Josiah
+// 2/10/26
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+    // variables
+    string first_name, last_name, full_name; // holds customer name
+    string product = "apples"; 
+    double cost_each = 0.99;
+    double total_cost;
+
+
+    // customer greeting
+    cout << "Welcome to our " << product << " store!" << endl;
+    cout << "What's your first name? ";
+    cin >> first_name;
+    cout << "What's your last name? ";
+    cin >> last_name;
+    full_name = first_name + " " + last_name;
+    cout << "Nice to meet you, " << full_name << endl;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
