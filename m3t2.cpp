@@ -8,6 +8,7 @@
 using namespace std;
 
 int main () {
+
     // variables
     int widthOne, lengthOne, widthTwo, lengthTwo;
     int areaOne, areaTwo;
@@ -42,5 +43,5 @@ int main () {
         cout << "Both rectangles are the same size" << endl;
     }
 
-    
+
 }
